@@ -1,51 +1,42 @@
 //10. Wap to find sum of anti diagonal element in 2d array.
 
 #include<stdio.h>
- 
 main()
 {
-	int row,colum;
-	int sum=0;
-
-	printf("Enter the row number : ");
-	scanf("%d",&row);
-    printf("Enter the colum number : ");
-	scanf("%d",&colum);
-	
-	int a[row][colum];
-	int i,j=2;
-	for(i=0;i<row;i++)
+	int n;
+	printf("Enter the size of row & column :");
+	scanf("%d",&n);
+	int a[n][n];
+	int i,j;
+	printf("enter the element of Array of A : \n ");
+	for(i=0;i<n;i++)
 	{
-		for(j=0;j<colum;j++)
+		for(j=0;j<n;j++)
 		{
-		    printf("a[%d][%d] : ",i,j);
+			printf("a[%d][%d] : ",i,j);
 			scanf("%d",&a[i][j]);
 		}
-	
 	}
-	
-	printf("\narray is :\n");
-	
-//	for(i=0;i<row;i++)
-//	{
-//		for(j=0;j<colum;j++)
-//		{
-//		    printf("%d ",a[i][j]);
-//		}
-//		printf("\n");
-//	}
-	  
-	  printf("\ndiyagonal elements :\n");
-	for(i=0;i<row;i++)
+	for(i=0;i<n;i++)
 	{
-		
-	  printf("%d ",a[i][j]);
-	  sum=sum+a[i][j];
-	  j--;
-		
+		for(j=0;j<n;j++)
+		{
+			printf("  %d",a[i][j]);
+		}
+		printf("\n");
 	}
-	printf(" sum is :%d",sum);
 	
-	
-
+	int sum=0;
+	for(i=0;i<n;i++)
+	{
+		for(j=0;j<n;j++)
+		{
+		  if(i+j==(n)-1)
+		  {
+		  	printf(" \n  %d",a[i][j]);
+		  	sum=sum+a[i][j];
+		  }
+		}
+	}
+	printf(" \n sum is :  %d",sum);
 }
