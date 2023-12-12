@@ -23,6 +23,6 @@ main()
             a[i] = a[i] + 32;
         }
     }
-    printf("String conver in Lowercase: %s\n", a);
+    printf("String convert in Lowercase: %s\n", a);
 	
 }
