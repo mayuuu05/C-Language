@@ -11,20 +11,17 @@ int main()
 		}
 		for(j=i; j<=10; j++)
 		{
-		   printf(" %d ",k);
+		   printf(" %d",k);
+		   if(k>=1 && k<=9)
+		   {
+		   	   printf(" ");
+		   }
 		   k=k+j;//2 4 7	
 		}
-//		y+=i;
-//		k=i+y;
-//		printf("\n");
-		
-//				for(x=1; x<i; x++)
-//		{
-//			printf(" -");
-//		}
+
 		for(j=9; j>=i; j--)
 		{
-		   printf(" %d ",k);
+		   printf(" %d",k);
 		   k=k+j;//2 4 7	
 		}
 		y+=i;
