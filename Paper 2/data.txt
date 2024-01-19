@@ -1,0 +1,18 @@
+
+
+=>The fruites 1 details are given below
+
+fruites_name   : nfgg
+color  : P@
+
+
+=>The fruites 2 details are given below
+
+fruites_name   : nfgg
+color  : P@
+
+
+=>The fruites 3 details are given below
+
+fruites_name   : nfgg
+color  : P@
