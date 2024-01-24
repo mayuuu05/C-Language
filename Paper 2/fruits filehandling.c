@@ -7,11 +7,7 @@ main()
 	FILE *fp;
 	fp=fopen("data.txt","w");
 	char fruites_name[50],color[50];
-//	int n;
-//	printf("Enter fruites number :");
-//	fprintf(fp,"Enter fruites number :");
-//	scanf("%d",&n);
-//	fprintf("%d",n);
+
 	
     for(int i=1 ; i<=3; i++)
     {
