@@ -1,0 +1,16 @@
+
+
+The person 1 details 
+Name      : mayu
+Birthdate : 23/11/2005
+Age       : 19
+
+The person 2 details 
+Name      : durga
+Birthdate : 16/12/2004
+Age       : 20
+
+The person 3 details 
+Name      : krupa
+Birthdate : 12/4/2005
+Age       : 19
